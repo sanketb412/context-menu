@@ -1,0 +1,11 @@
+
+.content-position{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+::ng-deep.cdk-overlay-pane{
+    transform: translate(30px, -100px);
+}

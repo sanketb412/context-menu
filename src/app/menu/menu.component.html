@@ -1,0 +1,9 @@
+<div class='content-position'>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <ng-content></ng-content>
+    </mat-menu>
+</div>
+<!-- <input type="text" [(ngModel)]="filter"/> -->
